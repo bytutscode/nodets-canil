@@ -2,7 +2,7 @@ import {Request,Response} from 'express';
 
 
 const home = (req: Request, res: Response)=>{
-    res.send('Página home');
+    res.render('pages/mainPage');
 }
 const dogs = (req: Request, res: Response)=>{
     res.send('Página Cachorros');
