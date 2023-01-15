@@ -138,7 +138,9 @@ export const pet = {
 
     getAllTypeOf: (type: PetType): PetProps[] =>{
         return data.filter(item => item.type === type)
-    }
+    },
+
+    getByName:(name:string):PetProps[]=>
+    data.filter(item => item.name.toLowerCase().indexOf(name)!==-1)
         
-    
 }
