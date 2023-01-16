@@ -2,7 +2,7 @@
   "name": "nodets-canil",
   "version": "1.0.0",
   "description": "Um projeto sobre um site de animais",
-  "main": "index.js",
+  "main": "server.js","type": "module",
   "engines": {
     "node": "16.x"
   },
