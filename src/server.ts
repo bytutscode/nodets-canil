@@ -20,4 +20,6 @@ server.use(router);
 
 
 
-server.listen(process.env.PORT);
+server.listen(process.env.PORT,()=>{
+    console.log(`server is running in port ${process.env.PORT} `)
+});
