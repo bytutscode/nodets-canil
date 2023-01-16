@@ -47,7 +47,7 @@ const fishes = (req: Request, res: Response)=>{
 }
 
 const err404 = (req:Request,res:Response)=>{
-    res.send('404 página não encontrada')
+    res.render('pages/404')
 }
 
 export default {
